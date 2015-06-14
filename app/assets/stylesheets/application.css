@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+.block{
+	width:500px;
+	margin: 0 auto;
+}
+.block form{
+	text-align: center;
+	margin : 1em 0em;
+}
+.submit{
+	font-size:5em;	
+}
+.pic{
+	text-align: center;
+	background: url(/YoGi/gold.png);
+	background-size: 540px;
+	padding: 13px 0px 0px 0px;
+	background-repeat: no-repeat;
+	height: 540px;
+}
+.pic-eye{
+	background: yellow;
+	width: 500px;
+ 	height: 360px;
+  	position: absolute;
+  	opacity:1;
+}
+body{
+	background:url(/YoGi/background.jpg);
+	background-repeat:no-repeat;
+	background-size: 80em;
+
+}
